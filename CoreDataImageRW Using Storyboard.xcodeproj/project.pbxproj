@@ -14,6 +14,9 @@
 		2A2F327C240EB80500E632BA /* CoreDataImageRW_Using_Storyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F327A240EB80500E632BA /* CoreDataImageRW_Using_Storyboard.xcdatamodeld */; };
 		2A2F327E240EB80900E632BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F327D240EB80900E632BA /* Assets.xcassets */; };
 		2A2F3281240EB80900E632BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F327F240EB80900E632BA /* LaunchScreen.storyboard */; };
+		2A2F328A240EC50700E632BA /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F3288240EC50700E632BA /* Profile+CoreDataClass.swift */; };
+		2A2F328B240EC50700E632BA /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F3289240EC50700E632BA /* Profile+CoreDataProperties.swift */; };
+		2A2F328D240EC52A00E632BA /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F328C240EC52A00E632BA /* DatabaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2A2F327D240EB80900E632BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2F3280240EB80900E632BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2F3282240EB80900E632BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2F3288240EC50700E632BA /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A2F3289240EC50700E632BA /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A2F328C240EC52A00E632BA /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		2A2F3265240EB80500E632BA = {
 			isa = PBXGroup;
 			children = (
+				2A2F3288240EC50700E632BA /* Profile+CoreDataClass.swift */,
+				2A2F3289240EC50700E632BA /* Profile+CoreDataProperties.swift */,
 				2A2F3270240EB80500E632BA /* CoreDataImageRW Using Storyboard */,
 				2A2F326F240EB80500E632BA /* Products */,
 			);
@@ -61,6 +69,7 @@
 				2A2F3271240EB80500E632BA /* AppDelegate.swift */,
 				2A2F3273240EB80500E632BA /* SceneDelegate.swift */,
 				2A2F3275240EB80500E632BA /* ViewController.swift */,
+				2A2F328C240EC52A00E632BA /* DatabaseHelper.swift */,
 				2A2F3277240EB80500E632BA /* Main.storyboard */,
 				2A2F327D240EB80900E632BA /* Assets.xcassets */,
 				2A2F327F240EB80900E632BA /* LaunchScreen.storyboard */,
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2F3276240EB80500E632BA /* ViewController.swift in Sources */,
+				2A2F328A240EC50700E632BA /* Profile+CoreDataClass.swift in Sources */,
 				2A2F327C240EB80500E632BA /* CoreDataImageRW_Using_Storyboard.xcdatamodeld in Sources */,
+				2A2F328D240EC52A00E632BA /* DatabaseHelper.swift in Sources */,
 				2A2F3272240EB80500E632BA /* AppDelegate.swift in Sources */,
+				2A2F328B240EC50700E632BA /* Profile+CoreDataProperties.swift in Sources */,
 				2A2F3274240EB80500E632BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
